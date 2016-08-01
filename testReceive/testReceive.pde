@@ -12,13 +12,13 @@ void setup(){
 }
 
 void getData(int a){
-  x = a*10;
+  x = a*10; //受け取ったaの10倍をxに代入
 }
 
 void draw(){
   background(0);
   fill(255, 0, 0);
   noStroke();
-  ellipse(x + 10, 30, 10, 10);
+  ellipse(x + 10, 30, 10, 10); //受け取る値が変わると円のx座標が変化する
   println("Data : " + x);
 }

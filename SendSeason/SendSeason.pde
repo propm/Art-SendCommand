@@ -4,7 +4,8 @@ import netP5.*;
 OscP5 oscp5;
 NetAddress address;
 OscMessage mes;
-int season = 0;
+
+int season = 0; //季節を変更する値
 int count = 0;
 
 void setup(){
